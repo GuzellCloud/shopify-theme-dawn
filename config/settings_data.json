@@ -1,5 +1,134 @@
 {
-  "current": "Default",
+  "current": {
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#800080",
+    "colors_accent_2": "rgba(0,0,0,0)",
+    "gradient_accent_2": "",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "rgba(0,0,0,0)",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "poppins_n7",
+    "type_body_font": "poppins_n4",
+    "page_width": 1600,
+    "spacing_grid_horizontal": 12,
+    "spacing_grid_vertical": 12,
+    "buttons_radius": 0,
+    "card_style": "card",
+    "card_color_scheme": "background-2",
+    "accent_icons": "text",
+    "social_facebook_link": "https:\/\/www.facebook.com\/GuzellOfficial\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/guzellofficial\/",
+    "favicon": "shopify:\/\/shop_images\/guzell-logo-with-bg-image2.png",
+    "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/guzell-logo.png",
+    "checkout_accent_color": "#800080",
+    "checkout_button_color": "#800080",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "{{ shop.brand.logo }}",
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "mega-menu-2018",
+          "menu_type_desktop": "mega",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "margin_bottom": 0
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Customer Care",
+              "menu": "footer-customer-service"
+            }
+          },
+          "deda8c58-04f8-4a6a-9f21-2b8c727e2911": {
+            "type": "link_list",
+            "settings": {
+              "heading": "About Güzell",
+              "menu": "footer"
+            }
+          },
+          "a91d84bc-4928-43a5-8492-4cffcbbb57e5": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Privacy & Legal",
+              "menu": "footer-privacy-legal"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "heading": "Subscribe",
+              "subtext": "<p>Get 15% off your first order<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "deda8c58-04f8-4a6a-9f21-2b8c727e2911",
+          "a91d84bc-4928-43a5-8492-4cffcbbb57e5",
+          "footer-1"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe for 15% off first order",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true,
+          "margin_top": 0,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "1513253815146976218": {
+        "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "17503894164445082576": {
+        "type": "shopify:\/\/apps\/helpcenter-faq-chat-helpdesk\/blocks\/contact-form-embed\/96ba30fd-9f2c-45e4-a753-8a1399d9a0d9",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
+  },
   "presets": {
     "Default": {
       "colors_solid_button_labels": "#ffffff",
@@ -113,7 +242,9 @@
           },
           "block_order": [
             "announcement-bar-0"
-          ]
+          ],
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
