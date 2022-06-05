@@ -29,8 +29,40 @@
           <div {{ block.shopify_attributes }}>
             {% form 'customer', class: 'newsletter-form' %}
               <input type="hidden" name="contact[tags]" value="newsletter">
-              <div class="newsletter-form__field-wrapper">
-                <div class="field">
+              <div class="newsletter-form__field-wrapper grid grid--1-col grid--3-col-tablet">
+                <div class="field grid__item">
+                  <input
+                    class="field__input"
+                    autocomplete="name"
+                    type="text"
+                    id="ContactForm-first_name"
+                    name="contact[first_name]"
+                    value=""
+                    aria-required="true"
+                    placeholder="First Name"
+                    required
+                  >
+                  <label class="field__label" for="ContactForm-first_name">
+                    {{- 'customer.register.first_name' | t -}}
+                  </label>
+                </div>
+                <div class="field grid__item">
+                  <input
+                    class="field__input"
+                    autocomplete="name"
+                    type="text"
+                    id="ContactForm-last_name"
+                    name="contact[last_name]"
+                    value=""
+                    aria-required="true"
+                    placeholder="Last Name"
+                    required
+                  >
+                  <label class="field__label" for="ContactForm-last_name">
+                    {{- 'customer.register.last_name' | t -}}
+                  </label>
+                </div>
+                <div class="field grid__item">
                   <input
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
